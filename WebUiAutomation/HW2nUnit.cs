@@ -26,6 +26,7 @@ public class HW2nUnit
     }
 
     [Test]
+    [Category("Language")]
     public async Task ChangeLanguage()
     {
         var page = await InitPage();
@@ -39,6 +40,7 @@ public class HW2nUnit
     }
 
     [Test]
+    [Category("Search")]
     public async Task SearchResults()
     {
         var page = await InitPage();
@@ -51,6 +53,7 @@ public class HW2nUnit
     }
 
     [Test]
+    [Category("Navigation")]
     public async Task VerifyAboutPageNavigation()
     {
         var page = await InitPage();
@@ -64,6 +67,7 @@ public class HW2nUnit
         await page.CloseAsync();
     }
 
+    [Category("Contact")]
     [TestCase("a[plerdy-tracking-id='35448735101']", "franciskscarynacr@gmail.com")]
     [TestCase("li[plerdy-tracking-id='50296369501']", "+370 68 771365")]
     [TestCase("li[plerdy-tracking-id='39744896801']", "+375 29 5781488")]

@@ -29,6 +29,7 @@ public class HW2xUnitLanguageAndSearch : IClassFixture<PlaywrightFixture>, IDisp
     }
 
     [Fact]
+    [Trait("Language", "Search")]
     public async Task ChangeLanguage()
     {
         var languageChoose = _page.Locator("//li[@plerdy-tracking-id='39047282601']");
@@ -40,6 +41,7 @@ public class HW2xUnitLanguageAndSearch : IClassFixture<PlaywrightFixture>, IDisp
     }
 
     [Fact]
+    [Trait("Programs", "Search")]
     public async Task SearchResults()
     {
         await _page.Locator("//div[@class='header-search']").ClickAsync();
@@ -76,6 +78,7 @@ public class HW2xUnitVerifing : IClassFixture<PlaywrightFixture>, IDisposable
     }
 
     [Fact]
+    [Trait("Navigation", "About")]
     public async Task VerifyAboutPageNavigation()
     {
         var footerAbout = _page.Locator("//footer//a[contains(text(), 'About')]");
@@ -88,6 +91,7 @@ public class HW2xUnitVerifing : IClassFixture<PlaywrightFixture>, IDisposable
     }
 
     [Theory]
+    [Trait("Navigation", "Contact")]
     [InlineData("a[plerdy-tracking-id='35448735101']", "franciskscarynacr@gmail.com")]
     [InlineData("li[plerdy-tracking-id='50296369501']", "+370 68 771365")]
     [InlineData("li[plerdy-tracking-id='39744896801']", "+375 29 5781488")]

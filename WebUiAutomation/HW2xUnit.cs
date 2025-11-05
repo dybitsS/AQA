@@ -1,7 +1,8 @@
 ﻿using Microsoft.Playwright;
+using WebUiAutomation.HW3;
 using Xunit;
 
-[assembly: CollectionBehavior(CollectionBehavior.CollectionPerClass, MaxParallelThreads = 4)]
+[assembly: CollectionBehavior(CollectionBehavior.CollectionPerClass, MaxParallelThreads = 8)]
 namespace WebUiAutomation;
 public class HW2xUnitLanguageAndSearch : IClassFixture<PlaywrightFixture>, IDisposable
 {
@@ -124,15 +125,12 @@ public class PlaywrightFixture : IAsyncLifetime
     public async Task InitializeAsync()
     {
         Playwright = await Microsoft.Playwright.Playwright.CreateAsync();
-        Browser = await Playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
-        {
-            Headless = true
-        });
+        Browser = await BrowerSinglton.GetBrowser(Playwright);
     }
 
     public async Task DisposeAsync()
     {
-        await Browser.CloseAsync();
+        await BrowerSinglton.CloseBrowser();
         Playwright.Dispose();
     }
 }

@@ -125,12 +125,12 @@ public class PlaywrightFixture : IAsyncLifetime
     public async Task InitializeAsync()
     {
         Playwright = await Microsoft.Playwright.Playwright.CreateAsync();
-        Browser = await BrowerSinglton.GetBrowser(Playwright);
+        Browser = await Playwright.Chromium.LaunchAsync();
     }
 
     public async Task DisposeAsync()
     {
-        await BrowerSinglton.CloseBrowser();
+        await Browser.DisposeAsync();
         Playwright.Dispose();
     }
 }

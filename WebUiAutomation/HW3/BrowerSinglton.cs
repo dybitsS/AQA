@@ -5,7 +5,7 @@ namespace WebUiAutomation.HW3;
 public class BrowerSinglton
 {
 
-    private static IBrowser _browser;
+    private static IBrowser? _browser;
 
     private BrowerSinglton()
     {
@@ -25,7 +25,8 @@ public class BrowerSinglton
     {
         if (_browser is not null)
         {
-            await _browser.CloseAsync(); 
+            await _browser.CloseAsync();
+            _browser = null;
         }
     }
 }

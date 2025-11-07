@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace WebUiAutomationNunit;
 
-[Parallelizable(ParallelScope.Children)]
+[Parallelizable(ParallelScope.All)]
 [TestFixture]
 public class HW2nUnit
 {

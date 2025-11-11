@@ -522,3 +522,15 @@ C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\zh-Hans\Microso
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.AdapterUtilities.resources.dll
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\obj\Debug\net8.0\WebUiAutomation.gentestingplatformentrypointinputcache.cache
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\obj\Debug\net8.0\WebUiAutomation.genautoregisteredextensionsinputcache.cache
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

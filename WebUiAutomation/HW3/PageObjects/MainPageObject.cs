@@ -4,7 +4,6 @@ namespace WebUiAutomation.HW3.PageObjects;
 
 public class MainPageObject(IPage page) : BasePageObject(page)
 {
-    private const string ContactURl = "https://en.ehu.lt/contact";
     private readonly string _selectorLithuanianLanguage = "//li[@plerdy-tracking-id='39047282601']";
     private readonly string _selectorLanguageChange = "li[plerdy-tracking-id='41154587901']";
     private readonly string _searchField = "input[plerdy-tracking-id='30561103501']";
@@ -42,7 +41,7 @@ public class MainPageObject(IPage page) : BasePageObject(page)
 
     public async Task<MainPageObject> GoToContactPage()
     {
-        await Page.GotoAsync(ContactURl);
+        await Page.GotoAsync(TestSettings.ContactUrl);
         return this;
     }
 

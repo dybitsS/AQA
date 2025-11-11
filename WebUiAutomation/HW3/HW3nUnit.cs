@@ -9,7 +9,6 @@ namespace WebUiAutomation.HW3;
 [FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
 public class HW3nUnit
 {
-    private const string MainUrl = "https://en.ehu.lt/";
     private const string CookieButtonsSelector = ".cc-btn.cc-dismiss, .cc-btn.cc-allow, .cc-btn";
     private const string LithuaniaVersionSite = @"https://lt.ehuniversity.lt/";
     private const string AboutUrl = "https://en.ehuniversity.lt/about/";
@@ -31,7 +30,7 @@ public class HW3nUnit
         _browserContext = await _browser.NewContextAsync();
         var page = await _browserContext.NewPageAsync();
 
-        await page.GotoAsync(MainUrl);
+        await page.GotoAsync(TestSettings.MainUrl);
 
         var cookieButton = await page.QuerySelectorAsync(CookieButtonsSelector);
         if (cookieButton != null)

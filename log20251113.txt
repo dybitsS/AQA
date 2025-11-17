@@ -1,0 +1,7 @@
+[14:24:10 INF] (25) === Starting test suite ===
+[14:24:10 DBG] (25) Creating Playwright
+[14:24:11 DBG] (29) Creating Browser
+[14:24:11 DBG] (29) Creating Browser Context
+[14:24:11 DBG] (29) Open new page
+[14:24:16 INF] (25) Entering method ChangeLanguage()
+[14:24:17 DBG] (17) Close browser

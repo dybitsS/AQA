@@ -1,0 +1,462 @@
+[14:27:34 DBG] (24) Creating Playwright
+[14:27:35 DBG] (29) Creating Browser
+[14:27:35 DBG] (29) Creating Browser Context
+[14:27:35 DBG] (29) Open new page
+[14:27:39 INF] (24) Entering method ChangeLanguage()
+[14:27:40 DBG] (23) Close browser
+[14:55:34 DBG] (24) Creating Playwright
+[14:55:35 DBG] (30) Creating Browser
+[14:55:35 DBG] (30) Creating Browser Context
+[14:55:35 DBG] (7) Open new page
+[14:55:35 DBG] (29) Open https://en.ehu.lt/ URL
+[14:55:39 DBG] (7) Accept cookie
+[14:55:39 DBG] (7) Create MainPageObject
+[14:55:39 INF] (24) Entering method ChangeLanguage
+[14:55:39 INF] (24) Click on menu to choose language
+[14:55:39 INF] (29) Click on lithuanian language
+[14:55:41 DBG] (24) Close page
+[14:55:41 DBG] (7) Dispose browser context
+[14:55:41 DBG] (31) Dispose Playwright
+[14:55:41 DBG] (19) Close browser
+[15:03:07 DBG] (16) Creating Playwright
+[15:03:07 DBG] (22) Creating Playwright
+[15:03:07 DBG] (23) Creating Playwright
+[15:03:07 DBG] (15) Creating Playwright
+[15:03:07 DBG] (24) Creating Playwright
+[15:03:07 DBG] (25) Creating Playwright
+[15:03:07 DBG] (21) Creating Playwright
+[15:03:11 DBG] (41) Creating Browser
+[15:03:11 DBG] (46) Creating Browser
+[15:03:11 DBG] (41) Creating Browser
+[15:03:11 DBG] (46) Creating Browser
+[15:03:11 DBG] (41) Creating Browser
+[15:03:11 DBG] (46) Creating Browser
+[15:03:11 DBG] (41) Creating Browser
+[15:03:11 DBG] (41) Creating Browser Context
+[15:03:11 DBG] (46) Creating Browser Context
+[15:03:11 DBG] (41) Creating Browser Context
+[15:03:11 DBG] (41) Open new page
+[15:03:11 DBG] (41) Open new page
+[15:03:12 DBG] (41) Creating Browser Context
+[15:03:12 DBG] (41) Open new page
+[15:03:12 DBG] (46) Creating Browser Context
+[15:03:12 DBG] (41) Open new page
+[15:03:12 DBG] (41) Open new page
+[15:03:12 DBG] (46) Creating Browser Context
+[15:03:12 DBG] (41) Open new page
+[15:03:12 DBG] (41) Creating Browser Context
+[15:03:12 DBG] (46) Open new page
+[15:03:12 DBG] (41) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (46) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (46) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (41) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (46) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (41) Open https://en.ehu.lt/ URL
+[15:03:12 DBG] (41) Open https://en.ehu.lt/ URL
+[15:03:18 DBG] (43) Accept cookie
+[15:03:19 DBG] (43) Create MainPageObject
+[15:03:19 INF] (22) Entering method ChangeLanguage
+[15:03:19 INF] (22) Click on menu to choose language
+[15:03:19 INF] (43) Click on lithuanian language
+[15:03:19 DBG] (43) Accept cookie
+[15:03:21 DBG] (43) Accept cookie
+[15:03:21 DBG] (43) Accept cookie
+[15:03:21 DBG] (39) Create MainPageObject
+[15:03:21 DBG] (39) Accept cookie
+[15:03:21 DBG] (43) Accept cookie
+[15:03:21 DBG] (36) Accept cookie
+[15:03:21 INF] (44) Ending method ChangeLanguage
+[15:03:21 DBG] (22) Close page
+[15:03:21 DBG] (36) Dispose browser context
+[15:03:21 DBG] (40) Dispose Playwright
+[15:03:21 DBG] (43) Create MainPageObject
+[15:03:21 DBG] (39) Create MainPageObject
+[15:03:21 DBG] (39) Create MainPageObject
+[15:03:21 DBG] (44) Create MainPageObject
+[15:03:21 DBG] (43) Create MainPageObject
+[15:03:21 INF] (24) Entering method SearchResults
+[15:03:21 INF] (24) Click on search header
+[15:03:21 INF] (43) Fill field
+[15:03:21 INF] (42) Click on search button
+[15:03:22 DBG] (15) Close page
+[15:03:22 DBG] (31) Dispose browser context
+[15:03:22 DBG] (42) Dispose Playwright
+[15:03:23 INF] (9) Ending method SearchResults
+[15:03:23 DBG] (24) Close page
+[15:03:23 DBG] (43) Dispose browser context
+[15:03:23 DBG] (41) Dispose Playwright
+[15:03:23 DBG] (21) Close page
+[15:03:23 DBG] (41) Dispose browser context
+[15:03:23 DBG] (41) Dispose Playwright
+[15:03:23 DBG] (16) Close page
+[15:03:23 DBG] (34) Dispose browser context
+[15:03:23 DBG] (42) Dispose Playwright
+[15:03:23 DBG] (25) Close page
+[15:03:23 DBG] (39) Dispose browser context
+[15:03:23 DBG] (41) Dispose Playwright
+[15:03:23 DBG] (23) Close page
+[15:03:23 DBG] (40) Dispose browser context
+[15:03:23 DBG] (30) Dispose Playwright
+[15:03:23 DBG] (16) Close browser
+[15:10:25 DBG] (16) Creating Playwright
+[15:10:26 DBG] (10) Creating Browser
+[15:10:26 DBG] (20) Creating Browser Context
+[15:10:26 DBG] (19) Open new page
+[15:10:26 DBG] (7) Open https://en.ehu.lt/ URL
+[15:10:31 DBG] (19) Accept cookie
+[15:10:31 DBG] (20) Create MainPageObject
+[15:10:32 INF] (16) Entering method ChangeLanguage
+[15:10:33 INF] (16) Click on menu to choose language
+[15:10:33 INF] (17) Click on lithuanian language
+[15:17:32 DBG] (15) Creating Playwright
+[15:17:32 DBG] (24) Creating Playwright
+[15:17:32 DBG] (20) Creating Playwright
+[15:17:32 DBG] (19) Creating Playwright
+[15:17:32 DBG] (22) Creating Playwright
+[15:17:32 DBG] (21) Creating Playwright
+[15:17:32 DBG] (23) Creating Playwright
+[15:17:36 DBG] (42) Creating Browser
+[15:17:36 DBG] (34) Creating Browser
+[15:17:36 DBG] (34) Creating Browser
+[15:17:36 DBG] (42) Creating Browser
+[15:17:36 DBG] (42) Creating Browser
+[15:17:36 DBG] (34) Creating Browser
+[15:17:36 DBG] (34) Creating Browser
+[15:17:36 DBG] (34) Creating Browser Context
+[15:17:36 DBG] (42) Creating Browser Context
+[15:17:36 DBG] (42) Creating Browser Context
+[15:17:36 DBG] (34) Open new page
+[15:17:36 DBG] (42) Open new page
+[15:17:36 DBG] (42) Creating Browser Context
+[15:17:36 DBG] (34) Creating Browser Context
+[15:17:36 DBG] (42) Open new page
+[15:17:37 DBG] (42) Open new page
+[15:17:37 DBG] (34) Open new page
+[15:17:37 DBG] (42) Creating Browser Context
+[15:17:37 DBG] (42) Creating Browser Context
+[15:17:37 DBG] (34) Open new page
+[15:17:37 DBG] (34) Open new page
+[15:17:37 DBG] (34) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (42) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (42) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (34) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (42) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (42) Open https://en.ehu.lt/ URL
+[15:17:37 DBG] (37) Open https://en.ehu.lt/ URL
+[15:17:43 DBG] (43) Accept cookie
+[15:17:44 DBG] (43) Create MainPageObject
+[15:17:44 DBG] (43) Accept cookie
+[15:17:44 DBG] (43) Create MainPageObject
+[15:17:44 INF] (22) Entering method SearchResults
+[15:17:44 INF] (22) Click on search header
+[15:17:44 DBG] (43) Accept cookie
+[15:17:44 INF] (43) Fill field
+[15:17:44 INF] (43) Click on search button
+[15:17:45 DBG] (43) Create MainPageObject
+[15:17:45 DBG] (43) Accept cookie
+[15:17:45 DBG] (34) Create MainPageObject
+[15:17:45 DBG] (43) Accept cookie
+[15:17:45 DBG] (37) Create MainPageObject
+[15:17:45 INF] (19) Entering method ChangeLanguage
+[15:17:45 INF] (19) Click on menu to choose language
+[15:17:45 INF] (37) Click on lithuanian language
+[15:17:45 DBG] (36) Accept cookie
+[15:17:46 DBG] (38) Create MainPageObject
+[15:17:46 DBG] (36) Accept cookie
+[15:17:46 DBG] (15) Close page
+[15:17:46 DBG] (38) Dispose browser context
+[15:17:46 DBG] (37) Dispose Playwright
+[15:17:46 DBG] (29) Create MainPageObject
+[15:17:46 INF] (37) Ending method SearchResults
+[15:17:46 DBG] (22) Close page
+[15:17:46 DBG] (44) Dispose browser context
+[15:17:46 DBG] (35) Dispose Playwright
+[15:17:46 DBG] (24) Close page
+[15:17:46 DBG] (46) Dispose browser context
+[15:17:46 DBG] (46) Dispose Playwright
+[15:17:47 DBG] (23) Close page
+[15:17:47 DBG] (39) Dispose browser context
+[15:17:47 DBG] (39) Dispose Playwright
+[15:17:47 INF] (42) Test Passed
+[15:17:47 INF] (42) Ending method ChangeLanguage
+[15:17:47 DBG] (19) Close page
+[15:17:47 DBG] (45) Dispose browser context
+[15:17:47 DBG] (45) Dispose Playwright
+[15:17:47 DBG] (21) Close page
+[15:17:47 DBG] (7) Dispose browser context
+[15:17:47 DBG] (7) Dispose Playwright
+[15:17:48 DBG] (20) Close page
+[15:17:48 DBG] (10) Dispose browser context
+[15:17:48 DBG] (30) Dispose Playwright
+[15:17:48 DBG] (23) Close browser
+[15:24:02 DBG] (27) Creating Playwright
+[15:24:02 DBG] (24) Creating Playwright
+[15:24:02 DBG] (23) Creating Playwright
+[15:24:02 DBG] (25) Creating Playwright
+[15:24:02 DBG] (26) Creating Playwright
+[15:24:02 DBG] (17) Creating Playwright
+[15:24:02 DBG] (21) Creating Playwright
+[15:24:06 DBG] (42) Creating Browser
+[15:24:06 DBG] (46) Creating Browser
+[15:24:06 DBG] (42) Creating Browser
+[15:24:06 DBG] (46) Creating Browser
+[15:24:06 DBG] (46) Creating Browser
+[15:24:06 DBG] (42) Creating Browser
+[15:24:06 DBG] (42) Creating Browser
+[15:24:07 DBG] (32) Creating Browser Context
+[15:24:07 DBG] (46) Creating Browser Context
+[15:24:07 DBG] (32) Creating Browser Context
+[15:24:07 DBG] (32) Open new page
+[15:24:07 DBG] (32) Creating Browser Context
+[15:24:07 DBG] (32) Open new page
+[15:24:07 DBG] (32) Open new page
+[15:24:07 DBG] (46) Open new page
+[15:24:07 DBG] (46) Creating Browser Context
+[15:24:07 DBG] (46) Creating Browser Context
+[15:24:07 DBG] (46) Open new page
+[15:24:07 DBG] (32) Open new page
+[15:24:07 DBG] (46) Creating Browser Context
+[15:24:07 DBG] (32) Open new page
+[15:24:07 DBG] (32) Open https://en.ehu.lt/ URL
+[15:24:07 DBG] (46) Open https://en.ehu.lt/ URL
+[15:24:07 DBG] (46) Open https://en.ehu.lt/ URL
+[15:24:07 DBG] (32) Open https://en.ehu.lt/ URL
+[15:24:07 DBG] (32) Open https://en.ehu.lt/ URL
+[15:24:07 DBG] (46) Open https://en.ehu.lt/ URL
+[15:24:08 DBG] (32) Open https://en.ehu.lt/ URL
+[15:24:14 DBG] (44) Accept cookie
+[15:24:14 DBG] (44) Accept cookie
+[15:24:14 DBG] (44) Create MainPageObject
+[15:24:15 DBG] (44) Create MainPageObject
+[15:24:15 INF] (25) Entering method SearchResults
+[15:24:15 INF] (25) Click on search header
+[15:24:15 DBG] (44) Accept cookie
+[15:24:15 INF] (44) Fill field
+[15:24:15 INF] (44) Click on search button
+[15:24:15 DBG] (44) Create MainPageObject
+[15:24:15 DBG] (44) Accept cookie
+[15:24:15 DBG] (44) Accept cookie
+[15:24:15 DBG] (44) Create MainPageObject
+[15:24:15 INF] (26) Entering method ChangeLanguage
+[15:24:15 INF] (26) Click on menu to choose language
+[15:24:15 DBG] (44) Create MainPageObject
+[15:24:15 INF] (44) Click on lithuanian language
+[15:24:15 DBG] (44) Accept cookie
+[15:24:15 DBG] (44) Create MainPageObject
+[15:24:16 DBG] (33) Accept cookie
+[15:24:16 DBG] (32) Create MainPageObject
+[15:24:16 INF] (32) Ending method SearchResults
+[15:24:16 DBG] (25) Close page
+[15:24:16 DBG] (33) Dispose browser context
+[15:24:16 DBG] (42) Dispose Playwright
+[15:24:16 DBG] (27) Close page
+[15:24:16 DBG] (33) Dispose browser context
+[15:24:16 DBG] (33) Dispose Playwright
+[15:24:16 DBG] (17) Close page
+[15:24:16 DBG] (32) Dispose browser context
+[15:24:16 DBG] (40) Dispose Playwright
+[15:24:17 INF] (38) Test Fail
+[15:24:17 ERR] (38) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:24:17 DBG] (23) Close page
+[15:24:17 DBG] (33) Dispose browser context
+[15:24:17 DBG] (38) Dispose Playwright
+[15:24:17 DBG] (24) Close page
+[15:24:17 DBG] (37) Dispose browser context
+[15:24:17 DBG] (33) Dispose Playwright
+[15:24:18 DBG] (21) Close page
+[15:24:18 DBG] (33) Dispose browser context
+[15:24:18 DBG] (33) Dispose Playwright
+[15:24:19 INF] (46) Ending method ChangeLanguage
+[15:24:19 DBG] (26) Close page
+[15:24:19 DBG] (40) Dispose browser context
+[15:24:19 DBG] (40) Dispose Playwright
+[15:24:19 DBG] (22) Close browser
+[15:25:57 DBG] (18) Creating Playwright
+[15:25:57 DBG] (29) Creating Browser
+[15:25:58 DBG] (29) Creating Browser Context
+[15:25:58 DBG] (29) Open new page
+[15:25:58 DBG] (9) Open https://en.ehu.lt/ URL
+[15:26:02 DBG] (29) Accept cookie
+[15:26:02 DBG] (29) Create MainPageObject
+[15:26:02 INF] (18) Entering method ChangeLanguage
+[15:26:02 INF] (18) Click on menu to choose language
+[15:26:02 INF] (29) Click on lithuanian language
+[15:26:04 INF] (32) Test Fail
+[15:26:04 ERR] (32) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:26:06 DBG] (18) Close page
+[15:26:06 DBG] (30) Dispose browser context
+[15:26:06 DBG] (32) Dispose Playwright
+[15:26:06 DBG] (22) Close browser
+[15:29:01 DBG] (24) Creating Playwright
+[15:29:02 DBG] (30) Creating Browser
+[15:29:02 DBG] (30) Creating Browser Context
+[15:29:02 DBG] (30) Open new page
+[15:29:03 DBG] (30) Open https://en.ehu.lt/ URL
+[15:29:07 DBG] (32) Accept cookie
+[15:29:07 DBG] (30) Create MainPageObject
+[15:29:07 INF] (24) Entering method ChangeLanguage
+[15:29:07 INF] (24) Click on menu to choose language
+[15:29:07 INF] (10) Click on lithuanian language
+[15:29:08 INF] (32) Test Fail
+[15:29:08 ERR] (32) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:29:08 DBG] (24) Close page
+[15:29:08 DBG] (32) Dispose browser context
+[15:29:08 DBG] (10) Dispose Playwright
+[15:29:09 DBG] (26) Close browser
+[15:29:42 DBG] (21) Creating Playwright
+[15:29:42 DBG] (30) Creating Browser
+[15:29:42 DBG] (30) Creating Browser Context
+[15:29:42 DBG] (30) Open new page
+[15:29:43 DBG] (9) Open https://en.ehu.lt/ URL
+[15:29:46 DBG] (32) Accept cookie
+[15:29:47 DBG] (32) Create MainPageObject
+[15:29:47 INF] (21) Entering method ChangeLanguage
+[15:29:47 INF] (21) Click on menu to choose language
+[15:29:47 INF] (32) Click on lithuanian language
+[15:29:48 INF] (9) Test Fail
+[15:29:48 ERR] (9) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:29:48 DBG] (21) Close page
+[15:29:48 DBG] (30) Dispose browser context
+[15:29:48 DBG] (31) Dispose Playwright
+[15:29:48 DBG] (15) Close browser
+[15:30:46 DBG] (20) Creating Playwright
+[15:30:46 DBG] (9) Creating Browser
+[15:30:47 DBG] (9) Creating Browser Context
+[15:30:47 DBG] (9) Open new page
+[15:30:47 DBG] (9) Open https://en.ehu.lt/ URL
+[15:30:51 DBG] (33) Accept cookie
+[15:30:51 DBG] (9) Create MainPageObject
+[15:30:51 INF] (20) Entering method ChangeLanguage
+[15:30:51 INF] (20) Click on menu to choose language
+[15:30:51 INF] (9) Click on lithuanian language
+[15:30:53 INF] (9) Test Fail
+[15:30:53 ERR] (9) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:30:53 DBG] (20) Close page
+[15:30:53 DBG] (33) Dispose browser context
+[15:30:53 DBG] (30) Dispose Playwright
+[15:30:54 DBG] (15) Close browser
+[15:32:19 DBG] (24) Creating Playwright
+[15:32:20 DBG] (10) Creating Browser
+[15:32:20 DBG] (10) Creating Browser Context
+[15:32:20 DBG] (10) Open new page
+[15:32:21 DBG] (10) Open https://en.ehu.lt/ URL
+[15:32:25 DBG] (32) Accept cookie
+[15:32:25 DBG] (32) Create MainPageObject
+[15:32:25 INF] (24) Entering method ChangeLanguage
+[15:32:25 INF] (24) Click on menu to choose language
+[15:32:25 INF] (32) Click on lithuanian language
+[15:32:26 INF] (32) Test Fail
+[15:32:26 ERR] (32) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:32:27 DBG] (24) Close page
+[15:32:27 DBG] (31) Dispose browser context
+[15:32:27 DBG] (30) Dispose Playwright
+[15:32:27 DBG] (16) Close browser
+[15:33:44 DBG] (24) Creating Playwright
+[15:33:44 DBG] (21) Creating Playwright
+[15:33:44 DBG] (25) Creating Playwright
+[15:33:44 DBG] (23) Creating Playwright
+[15:33:44 DBG] (20) Creating Playwright
+[15:33:44 DBG] (26) Creating Playwright
+[15:33:44 DBG] (22) Creating Playwright
+[15:33:48 DBG] (42) Creating Browser
+[15:33:48 DBG] (30) Creating Browser
+[15:33:48 DBG] (42) Creating Browser
+[15:33:48 DBG] (30) Creating Browser
+[15:33:48 DBG] (42) Creating Browser
+[15:33:48 DBG] (30) Creating Browser
+[15:33:48 DBG] (42) Creating Browser
+[15:33:48 DBG] (42) Creating Browser Context
+[15:33:48 DBG] (30) Creating Browser Context
+[15:33:48 DBG] (30) Open new page
+[15:33:48 DBG] (42) Open new page
+[15:33:48 DBG] (42) Creating Browser Context
+[15:33:49 DBG] (42) Open new page
+[15:33:49 DBG] (30) Creating Browser Context
+[15:33:49 DBG] (30) Creating Browser Context
+[15:33:49 DBG] (42) Open new page
+[15:33:49 DBG] (30) Open new page
+[15:33:49 DBG] (42) Creating Browser Context
+[15:33:49 DBG] (30) Creating Browser Context
+[15:33:49 DBG] (42) Open new page
+[15:33:49 DBG] (42) Open new page
+[15:33:49 DBG] (46) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (30) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (46) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (30) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (46) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (30) Open https://en.ehu.lt/ URL
+[15:33:49 DBG] (30) Open https://en.ehu.lt/ URL
+[15:33:55 DBG] (42) Accept cookie
+[15:33:56 DBG] (42) Create MainPageObject
+[15:33:56 DBG] (30) Accept cookie
+[15:33:56 DBG] (30) Accept cookie
+[15:33:56 DBG] (30) Create MainPageObject
+[15:33:56 INF] (24) Entering method SearchResults
+[15:33:56 INF] (24) Click on search header
+[15:33:56 DBG] (30) Create MainPageObject
+[15:33:56 INF] (30) Fill field
+[15:33:56 INF] (30) Click on search button
+[15:33:57 DBG] (30) Accept cookie
+[15:33:57 DBG] (30) Accept cookie
+[15:33:57 DBG] (30) Create MainPageObject
+[15:33:57 INF] (21) Entering method ChangeLanguage
+[15:33:57 INF] (21) Click on menu to choose language
+[15:33:57 DBG] (30) Accept cookie
+[15:33:57 INF] (30) Click on lithuanian language
+[15:33:57 DBG] (42) Create MainPageObject
+[15:33:57 DBG] (42) Accept cookie
+[15:33:57 DBG] (42) Create MainPageObject
+[15:33:58 DBG] (30) Create MainPageObject
+[15:33:58 DBG] (26) Close page
+[15:33:58 DBG] (36) Dispose browser context
+[15:33:58 DBG] (41) Dispose Playwright
+[15:33:58 DBG] (25) Close page
+[15:33:58 DBG] (37) Dispose browser context
+[15:33:58 DBG] (42) Dispose Playwright
+[15:33:58 INF] (36) Ending method SearchResults
+[15:33:58 DBG] (24) Close page
+[15:33:58 DBG] (41) Dispose browser context
+[15:33:58 DBG] (41) Dispose Playwright
+[15:33:59 INF] (39) Test Fail
+[15:33:59 ERR] (39) Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 102
+[15:33:59 DBG] (21) Close page
+[15:33:59 DBG] (39) Dispose browser context
+[15:33:59 DBG] (44) Dispose Playwright
+[15:34:01 DBG] (23) Close page
+[15:34:01 DBG] (44) Dispose browser context
+[15:34:01 DBG] (32) Dispose Playwright
+[15:34:01 DBG] (22) Close page
+[15:34:01 DBG] (10) Dispose browser context
+[15:34:01 DBG] (44) Dispose Playwright
+[15:34:01 DBG] (20) Close page
+[15:34:01 DBG] (32) Dispose browser context
+[15:34:01 DBG] (44) Dispose Playwright
+[15:34:01 DBG] (19) Close browser

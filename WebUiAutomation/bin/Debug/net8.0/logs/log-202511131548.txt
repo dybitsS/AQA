@@ -1,0 +1,70 @@
+2025-11-13 15:48:14 [DBG] Creating Playwright
+2025-11-13 15:48:14 [DBG] Creating Playwright
+2025-11-13 15:48:15 [DBG] Creating Browser
+2025-11-13 15:48:15 [DBG] Creating Browser
+2025-11-13 15:48:15 [DBG] Creating Browser Context
+2025-11-13 15:48:15 [DBG] Creating Browser Context
+2025-11-13 15:48:15 [DBG] Open new page
+2025-11-13 15:48:15 [DBG] Open new page
+2025-11-13 15:48:15 [DBG] Open https://en.ehu.lt/ URL
+2025-11-13 15:48:15 [DBG] Open https://en.ehu.lt/ URL
+2025-11-13 15:48:20 [DBG] Accept cookie
+2025-11-13 15:48:20 [DBG] Create MainPageObject
+2025-11-13 15:48:20 [INF] Entering method SearchResults
+2025-11-13 15:48:20 [INF] Click on search header
+2025-11-13 15:48:20 [INF] Fill field
+2025-11-13 15:48:20 [INF] Click on search button
+2025-11-13 15:48:21 [DBG] Accept cookie
+2025-11-13 15:48:21 [DBG] Create MainPageObject
+2025-11-13 15:48:21 [INF] Entering method ChangeLanguage
+2025-11-13 15:48:21 [INF] Click on menu to choose language
+2025-11-13 15:48:21 [INF] Click on lithuanian language
+2025-11-13 15:48:21 [INF] Ending method SearchResults
+2025-11-13 15:48:21 [DBG] Close page
+2025-11-13 15:48:22 [DBG] Dispose browser context
+2025-11-13 15:48:22 [DBG] Dispose Playwright
+2025-11-13 15:48:22 [INF] Test Fail
+2025-11-13 15:48:22 [ERR] Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 106
+2025-11-13 15:48:23 [DBG] Close page
+2025-11-13 15:48:23 [DBG] Dispose browser context
+2025-11-13 15:48:23 [DBG] Dispose Playwright
+2025-11-13 15:48:23 [DBG] Close browser
+2025-11-13 15:48:36 [DBG] Creating Playwright
+2025-11-13 15:48:36 [DBG] Creating Playwright
+2025-11-13 15:48:37 [DBG] Creating Browser
+2025-11-13 15:48:37 [DBG] Creating Browser
+2025-11-13 15:48:37 [DBG] Creating Browser Context
+2025-11-13 15:48:37 [DBG] Creating Browser Context
+2025-11-13 15:48:37 [DBG] Open new page
+2025-11-13 15:48:37 [DBG] Open new page
+2025-11-13 15:48:38 [DBG] Open https://en.ehu.lt/ URL
+2025-11-13 15:48:38 [DBG] Open https://en.ehu.lt/ URL
+2025-11-13 15:48:42 [DBG] Accept cookie
+2025-11-13 15:48:42 [DBG] Create MainPageObject
+2025-11-13 15:48:42 [INF] Entering method ChangeLanguage
+2025-11-13 15:48:42 [INF] Click on menu to choose language
+2025-11-13 15:48:42 [INF] Click on lithuanian language
+2025-11-13 15:48:43 [DBG] Accept cookie
+2025-11-13 15:48:43 [DBG] Create MainPageObject
+2025-11-13 15:48:43 [INF] Entering method SearchResults
+2025-11-13 15:48:43 [INF] Click on search header
+2025-11-13 15:48:43 [INF] Fill field
+2025-11-13 15:48:43 [INF] Click on search button
+2025-11-13 15:48:44 [INF] Test Fail
+2025-11-13 15:48:44 [ERR] Message: _mainPage.GetPageUrl()
+    should contain (case insensitive comparison)
+"pppppppppppppppp"
+    but was actually
+"https://lt.ehuniversity.lt/" Stack Trace:    at WebUiAutomation.HW4.HW4nUnit.ChangeLanguage() in C:\Users\lukas\source\repos\AQA\WebUiAutomation\HW4\HW4nUnit.cs:line 106
+2025-11-13 15:48:45 [DBG] Close page
+2025-11-13 15:48:45 [DBG] Dispose browser context
+2025-11-13 15:48:45 [DBG] Dispose Playwright
+2025-11-13 15:48:45 [INF] Ending method SearchResults
+2025-11-13 15:48:45 [DBG] Close page
+2025-11-13 15:48:45 [DBG] Dispose browser context
+2025-11-13 15:48:45 [DBG] Dispose Playwright
+2025-11-13 15:48:45 [DBG] Close browser

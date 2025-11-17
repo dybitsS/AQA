@@ -14,11 +14,36 @@
           "Microsoft.Playwright": "1.55.0",
           "Microsoft.Playwright.NUnit": "1.55.0",
           "NUnit3TestAdapter": "5.2.0",
+          "Serilog": "4.3.0",
+          "Serilog.Enrichers.Thread": "4.0.0",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.File": "7.0.0",
+          "Shouldly": "4.3.0",
           "xunit": "2.9.3",
           "xunit.runner.visualstudio": "3.1.5"
         },
         "runtime": {
           "WebUiAutomation.dll": {}
+        }
+      },
+      "DiffEngine/11.3.0": {
+        "dependencies": {
+          "EmptyFiles": "4.4.0",
+          "System.Management": "6.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/DiffEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EmptyFiles/4.4.0": {
+        "runtime": {
+          "lib/net7.0/EmptyFiles.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.ApplicationInsights/2.23.0": {
@@ -734,6 +759,67 @@
           "Microsoft.Testing.Platform.MSBuild": "1.9.0"
         }
       },
+      "Serilog/4.3.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "Serilog.Enrichers.Thread/4.0.0": {
+        "dependencies": {
+          "Serilog": "4.3.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Enrichers.Thread.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.1.1": {
+        "dependencies": {
+          "Serilog": "4.3.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/7.0.0": {
+        "dependencies": {
+          "Serilog": "4.3.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Shouldly/4.3.0": {
+        "dependencies": {
+          "DiffEngine": "11.3.0",
+          "EmptyFiles": "4.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/Shouldly.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "System.Collections.Immutable/8.0.0": {},
       "System.ComponentModel.Annotations/5.0.0": {},
       "System.Diagnostics.DiagnosticSource/5.0.0": {},
@@ -742,6 +828,25 @@
           "lib/net8.0/System.IO.Pipelines.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "System.Management/6.0.1": {
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.1623.17311"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.1623.17311"
           }
         }
       },
@@ -838,6 +943,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DiffEngine/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k0ZgZqd09jLZQjR8FyQbSQE86Q7QZnjEzq1LPHtj1R2AoWO8sjV5x+jlSisL7NZAbUOI4y+7Bog8gkr9WIRBGw==",
+      "path": "diffengine/11.3.0",
+      "hashPath": "diffengine.11.3.0.nupkg.sha512"
+    },
+    "EmptyFiles/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwJEfIGS7FhykvtZoscwXj/XwW+mJY6UbAZk+qtLKFUGWC95kfKXnj8VkxsZQnWBxJemM/q664rGLN5nf+OHZw==",
+      "path": "emptyfiles/4.4.0",
+      "hashPath": "emptyfiles.4.4.0.nupkg.sha512"
     },
     "Microsoft.ApplicationInsights/2.23.0": {
       "type": "package",
@@ -1035,6 +1154,48 @@
       "path": "nunit3testadapter/5.2.0",
       "hashPath": "nunit3testadapter.5.2.0.nupkg.sha512"
     },
+    "Serilog/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+cDryFR0GRhsGOnZSKwaDzRRl4MupvJ42FhCE4zhQRVanX0Jpg6WuCBk59OVhVDPmab1bB+nRykAnykYELA9qQ==",
+      "path": "serilog/4.3.0",
+      "hashPath": "serilog.4.3.0.nupkg.sha512"
+    },
+    "Serilog.Enrichers.Thread/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7BK25a1rhUyr+Tp+1BYcVlBJq7M2VCHlIgnwoIUVJcicM9jYcvQK18+OeHiXw7uLPSjqWxJIp1EfaZ/RGmEwA==",
+      "path": "serilog.enrichers.thread/4.0.0",
+      "hashPath": "serilog.enrichers.thread.4.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
+      "path": "serilog.sinks.console/6.1.1",
+      "hashPath": "serilog.sinks.console.6.1.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fKL7mXv7qaiNBUC71ssvn/dU0k9t0o45+qm2XgKAlSt19xF+ijjxyA3R6HmCgfKEKwfcfkwWjayuQtRueZFkYw==",
+      "path": "serilog.sinks.file/7.0.0",
+      "hashPath": "serilog.sinks.file.7.0.0.nupkg.sha512"
+    },
+    "Shouldly/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sDetrWXrl6YXZ4HeLsdBoNk3uIa7K+V4uvIJ+cqdRa5DrFxeTED7VkjoxCuU1kJWpUuBDZz2QXFzSxBtVXLwRQ==",
+      "path": "shouldly/4.3.0",
+      "hashPath": "shouldly.4.3.0.nupkg.sha512"
+    },
+    "System.CodeDom/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+      "path": "system.codedom/6.0.0",
+      "hashPath": "system.codedom.6.0.0.nupkg.sha512"
+    },
     "System.Collections.Immutable/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1062,6 +1223,13 @@
       "sha512": "sha512-M1eb3nfXntaRJPrrMVM9EFS8I1bDTnt0uvUS6QP/SicZf/ZZjydMD5NiXxfmwW/uQwaMDP/yX2P+zQN1NBHChg==",
       "path": "system.io.pipelines/10.0.0",
       "hashPath": "system.io.pipelines.10.0.0.nupkg.sha512"
+    },
+    "System.Management/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-10J1D0h/lioojphfJ4Fuh5ZUThT/xOVHdV9roGBittKKNP2PMjrvibEdbVTGZcPra1399Ja3tqIJLyQrc5Wmhg==",
+      "path": "system.management/6.0.1",
+      "hashPath": "system.management.6.0.1.nupkg.sha512"
     },
     "System.Reflection.Metadata/8.0.0": {
       "type": "package",

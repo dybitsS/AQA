@@ -626,3 +626,12 @@ C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\runtimes\win\li
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Reqnroll.NUnit.ReqnrollPlugin.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\CucumberExpressions.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Cucumber.HtmlFormatter.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Cucumber.Messages.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Gherkin.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Reqnroll.Utils.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\Reqnroll.dll
+C:\Users\lukas\source\repos\AQA\WebUiAutomation\bin\Debug\net8.0\System.Threading.Channels.dll

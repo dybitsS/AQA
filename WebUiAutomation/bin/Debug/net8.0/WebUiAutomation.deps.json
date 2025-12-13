@@ -15,6 +15,8 @@
           "Microsoft.Playwright": "1.55.0",
           "Microsoft.Playwright.NUnit": "1.55.0",
           "NUnit3TestAdapter": "5.2.0",
+          "Reqnroll": "3.2.1",
+          "Reqnroll.NUnit": "3.2.1",
           "Serilog": "4.3.0",
           "Serilog.Enrichers.Thread": "4.0.0",
           "Serilog.Sinks.Console": "6.1.1",
@@ -25,6 +27,33 @@
         },
         "runtime": {
           "WebUiAutomation.dll": {}
+        }
+      },
+      "Cucumber.CucumberExpressions/17.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.0.0"
+          }
+        }
+      },
+      "Cucumber.HtmlFormatter/21.15.1": {
+        "dependencies": {
+          "Cucumber.Messages": "29.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.HtmlFormatter.dll": {
+            "assemblyVersion": "21.15.1.0",
+            "fileVersion": "21.15.1.0"
+          }
+        }
+      },
+      "Cucumber.Messages/29.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Cucumber.Messages.dll": {
+            "assemblyVersion": "29.0.1.0",
+            "fileVersion": "29.0.1.0"
+          }
         }
       },
       "DiffEngine/11.3.0": {
@@ -60,6 +89,17 @@
           }
         }
       },
+      "Gherkin/35.0.0": {
+        "dependencies": {
+          "Cucumber.Messages": "29.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gherkin.dll": {
+            "assemblyVersion": "35.0.0.0",
+            "fileVersion": "35.0.0.0"
+          }
+        }
+      },
       "Microsoft.ApplicationInsights/2.23.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "5.0.0"
@@ -79,11 +119,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+            "assemblyVersion": "9.0.0.6",
+            "fileVersion": "9.0.625.26613"
           }
         }
       },
@@ -260,6 +300,14 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyModel/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.2",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/10.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "10.0.0"
@@ -309,7 +357,7 @@
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.Playwright/1.55.0": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.6",
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Text.Json": "10.0.0"
         },
@@ -927,6 +975,42 @@
           }
         }
       },
+      "Reqnroll/3.2.1": {
+        "dependencies": {
+          "Cucumber.CucumberExpressions": "17.1.0",
+          "Cucumber.HtmlFormatter": "21.15.1",
+          "Cucumber.Messages": "29.0.1",
+          "Gherkin": "35.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.6",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "System.Text.Json": "10.0.0",
+          "System.Threading.Channels": "9.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.Utils.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "lib/netstandard2.0/Reqnroll.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Reqnroll.NUnit/3.2.1": {
+        "dependencies": {
+          "NUnit": "3.13.2",
+          "Reqnroll": "3.2.1",
+          "Reqnroll.Tools.MsBuild.Generation": "3.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Reqnroll.Tools.MsBuild.Generation/3.2.1": {},
       "Serilog/4.3.0": {
         "runtime": {
           "lib/net8.0/Serilog.dll": {
@@ -1112,6 +1196,14 @@
           }
         }
       },
+      "System.Threading.Channels/9.0.6": {
+        "runtime": {
+          "lib/net8.0/System.Threading.Channels.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.Windows.Extensions/5.0.0": {
         "dependencies": {
@@ -1193,6 +1285,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Cucumber.CucumberExpressions/17.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZFDLLwrUCKuGDXQzmAWZa+kQFpVmVwWD8wEl0UWGOR83UQfzqg8hZeSSNUOXlW0Kh3vMO6kEm3FpNC4amKMaw==",
+      "path": "cucumber.cucumberexpressions/17.1.0",
+      "hashPath": "cucumber.cucumberexpressions.17.1.0.nupkg.sha512"
+    },
+    "Cucumber.HtmlFormatter/21.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-At28t7VZsS8ccscrD0zjUpp02QeRz2MrBLvpSzO4eL6OD76HoPdCSN4aNyg3q5RD+t21uYpIQq0N2XR6J0MB0A==",
+      "path": "cucumber.htmlformatter/21.15.1",
+      "hashPath": "cucumber.htmlformatter.21.15.1.nupkg.sha512"
+    },
+    "Cucumber.Messages/29.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2oo/wR3mXrbdK04Yraf+KhB01f/lyBkLQZcdxYt9XKE6tV+Af45MEk+jfbsew1SVvrAO0WvkIRwGYUozKCJvQ==",
+      "path": "cucumber.messages/29.0.1",
+      "hashPath": "cucumber.messages.29.0.1.nupkg.sha512"
+    },
     "DiffEngine/11.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1214,6 +1327,13 @@
       "path": "extentreports/5.0.4",
       "hashPath": "extentreports.5.0.4.nupkg.sha512"
     },
+    "Gherkin/35.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ha+QNevQsXEESbzazUceHTCtKOjoBTBa8kLFdKpu6vSEbb3UMt3a55RG78tIoU/C4qzIqX3jQxaIdIcYGO+IWQ==",
+      "path": "gherkin/35.0.0",
+      "hashPath": "gherkin.35.0.0.nupkg.sha512"
+    },
     "Microsoft.ApplicationInsights/2.23.0": {
       "type": "package",
       "serviceable": true,
@@ -1228,12 +1348,12 @@
       "path": "microsoft.aspnetcore.razor.language/3.1.0",
       "hashPath": "microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+    "Microsoft.Bcl.AsyncInterfaces/9.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
-      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
-      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+      "sha512": "sha512-82rLw487j5jBXEi2r3WvA/cagOhcRREVRtet6izzjDMY+i392W5oNSN2KCtuIvlTpyMONEUD0MIlGAgDdsvQ/w==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.6",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
       "type": "package",
@@ -1297,6 +1417,13 @@
       "sha512": "sha512-BIOPTEAZoeWbHlDT9Zudu+rpecZizFwhdIFRiyZKDml7JbayXmfTXKUt+ezifsSXfBkWDdJM10oDOxo8pufEng==",
       "path": "microsoft.extensions.configuration.json/10.0.0",
       "hashPath": "microsoft.extensions.configuration.json.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
+      "path": "microsoft.extensions.dependencymodel/8.0.2",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/10.0.0": {
       "type": "package",
@@ -1459,6 +1586,27 @@
       "path": "razorengine.netcore.nixfix/1.0.1",
       "hashPath": "razorengine.netcore.nixfix.1.0.1.nupkg.sha512"
     },
+    "Reqnroll/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/3bUO7Yt61sk3yNEVl4gDwbI6r3489lqPX9WC63u5bTaK7X6rhO0v3nL1xUvyYk9b7PtqBRpzKopDnEcglf0Vw==",
+      "path": "reqnroll/3.2.1",
+      "hashPath": "reqnroll.3.2.1.nupkg.sha512"
+    },
+    "Reqnroll.NUnit/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZxNVpWPrfsN83pfhivNf1Lhle6fGFGpE/YoqDnEaYZCX4n1KE3VDEiC2Dxz6OXOoVYz59e4mA3y0uBwsJxlykw==",
+      "path": "reqnroll.nunit/3.2.1",
+      "hashPath": "reqnroll.nunit.3.2.1.nupkg.sha512"
+    },
+    "Reqnroll.Tools.MsBuild.Generation/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u7bhTmXpQXSB594JJ/+ybOBMzB9APkz4uYUFFN52xhdB9hDVWwQ5uII6SHLkZ8mLQkW+8W7Mgxcz6cMcwY4ZyA==",
+      "path": "reqnroll.tools.msbuild.generation/3.2.1",
+      "hashPath": "reqnroll.tools.msbuild.generation.3.2.1.nupkg.sha512"
+    },
     "Serilog/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1619,6 +1767,13 @@
       "sha512": "sha512-1Dpjwq9peG/Wt5BNbrzIhTpclfOSqBWZsUO28vVr59yQlkvL5jLBWfpfzRmJ1OY+6DciaY0DUcltyzs4fuZHjw==",
       "path": "system.text.json/10.0.0",
       "hashPath": "system.text.json.10.0.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2MaNJVkG2yJiXQbZrrcYoJ55ehV+aX0zqR6rWJkO/Qj7jTsArWthrQ7iWywUf/sE5ylJWX/iLH2kKfwSRdkWsA==",
+      "path": "system.threading.channels/9.0.6",
+      "hashPath": "system.threading.channels.9.0.6.nupkg.sha512"
     },
     "System.Threading.Tasks.Extensions/4.5.4": {
       "type": "package",

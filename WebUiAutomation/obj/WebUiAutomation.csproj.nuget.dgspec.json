@@ -78,6 +78,14 @@
               "target": "Package",
               "version": "[5.2.0, )"
             },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.3.0, )"

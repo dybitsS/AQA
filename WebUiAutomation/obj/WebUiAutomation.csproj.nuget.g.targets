@@ -6,6 +6,10 @@
     <Import Project="$(NuGetPackageRoot)emptyfiles\4.4.0\buildTransitive\EmptyFiles.targets" Condition="Exists('$(NuGetPackageRoot)emptyfiles\4.4.0\buildTransitive\EmptyFiles.targets')" />
     <Import Project="$(NuGetPackageRoot)shouldly\4.3.0\buildTransitive\Shouldly.targets" Condition="Exists('$(NuGetPackageRoot)shouldly\4.3.0\buildTransitive\Shouldly.targets')" />
     <Import Project="$(NuGetPackageRoot)serilog\4.3.0\build\Serilog.targets" Condition="Exists('$(NuGetPackageRoot)serilog\4.3.0\build\Serilog.targets')" />
+    <Import Project="$(NuGetPackageRoot)reqnroll.tools.msbuild.generation\3.2.1\build\Reqnroll.Tools.MsBuild.Generation.targets" Condition="Exists('$(NuGetPackageRoot)reqnroll.tools.msbuild.generation\3.2.1\build\Reqnroll.Tools.MsBuild.Generation.targets')" />
+    <Import Project="$(NuGetPackageRoot)reqnroll\3.2.1\build\Reqnroll.targets" Condition="Exists('$(NuGetPackageRoot)reqnroll\3.2.1\build\Reqnroll.targets')" />
+    <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)reqnroll.nunit\3.2.1\build\Reqnroll.NUnit.targets" Condition="Exists('$(NuGetPackageRoot)reqnroll.nunit\3.2.1\build\Reqnroll.NUnit.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\1.9.0\buildTransitive\net8.0\Microsoft.Testing.Platform.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\1.9.0\buildTransitive\net8.0\Microsoft.Testing.Platform.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.9.0\buildTransitive\Microsoft.Testing.Platform.MSBuild.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\1.9.0\buildTransitive\Microsoft.Testing.Platform.MSBuild.targets')" />
     <Import Project="$(NuGetPackageRoot)nunit3testadapter\5.2.0\build\netcoreapp3.1\NUnit3TestAdapter.targets" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\5.2.0\build\netcoreapp3.1\NUnit3TestAdapter.targets')" />

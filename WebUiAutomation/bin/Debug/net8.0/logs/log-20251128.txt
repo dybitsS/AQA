@@ -1,0 +1,34 @@
+[12:45:35 DBG] (43) Creating Playwright
+[12:45:38 DBG] (60) Creating Browser
+[12:45:38 DBG] (60) Creating Browser Context
+[12:45:38 DBG] (60) Open new page
+[12:45:38 DBG] (27) Open https://en.ehu.lt/ URL
+[12:45:38 DBG] (42) Creating Playwright
+[12:45:39 DBG] (14) Creating Browser
+[12:45:39 DBG] (14) Creating Browser Context
+[12:45:39 DBG] (19) Open new page
+[12:45:39 DBG] (14) Open https://en.ehu.lt/ URL
+[12:45:46 DBG] (43) Close page
+[12:45:46 DBG] (42) Close page
+[12:45:46 DBG] (42) Close browser
+[13:27:41 DBG] (16) Creating Playwright
+[13:27:42 DBG] (24) Creating Playwright
+[13:27:43 DBG] (35) Creating Browser
+[13:27:43 DBG] (35) Creating Browser Context
+[13:27:43 DBG] (16) Close page
+[13:27:43 DBG] (35) Creating Browser
+[13:27:43 DBG] (35) Creating Browser Context
+[13:27:43 DBG] (24) Close page
+[13:27:43 DBG] (24) Close browser
+[13:41:44 DBG] (25) Creating Playwright
+[13:41:44 DBG] (18) Creating Playwright
+[13:41:53 DBG] (46) Creating Browser
+[13:41:53 DBG] (46) Creating Browser
+[13:41:53 DBG] (32) Creating Browser Context
+[13:41:53 DBG] (32) Open new page
+[13:41:53 DBG] (32) Creating Browser Context
+[13:41:53 DBG] (32) Open new page
+[13:41:54 DBG] (32) Open https://en.ehu.lt/ URL
+[13:41:54 DBG] (32) Open https://en.ehu.lt/ URL
+[13:42:04 DBG] (35) Accept cookie
+[13:42:04 DBG] (35) Accept cookie
